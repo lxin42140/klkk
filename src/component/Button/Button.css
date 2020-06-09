@@ -1,0 +1,33 @@
+.Button {
+    width: fit-content;
+    height:25px;
+    border-radius: 2em;
+    cursor: pointer;
+    padding: auto;
+    font: inherit;
+    font-size: small;
+    text-align: center;
+    background-color: white;
+    border: 2px solid #ff5138;
+    transition-duration: 0.2s;
+}
+
+.Button:hover {
+    background-color: #ff5138;
+    color: white;
+    box-shadow: 0 5px 5px 0 rgba(26, 26, 26, 0.205), 0 5px 5px 0 rgba(26, 26, 26, 0.205);
+}
+
+.Button:active {
+    top: 0.1em;
+    outline: none;
+}
+
+.Button:focus {
+    outline: none;
+}
+
+.Button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
